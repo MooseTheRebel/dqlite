@@ -222,7 +222,7 @@ static uint32_t *__wal_idx_read_marks(sqlite3 *db)
 	return marks;
 }
 
-/* Helper that returns true if the i'th lock of the shared memory reagion
+/* Helper that returns true if the i'th lock of the shared memory region
  * associated with the given database is currently held. */
 static int __shm_shared_lock_held(sqlite3 *db, int i)
 {
